@@ -15,7 +15,7 @@ android {
         versionName = "1.0"
 
         buildConfigField("String", "BACKEND_URL", "\"http://5.129.237.26:8765\"")
-        buildConfigField("String", "AUTH_TOKEN", "\"${System.getenv("AI_VISION_TOKEN") ?: "ai-vision-2026"}\"")
+        buildConfigField("String", "AUTH_TOKEN", "\"ai-vision-2026\"")
     }
 
     buildTypes {
